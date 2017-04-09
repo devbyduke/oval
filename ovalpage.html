@@ -1,0 +1,75 @@
+<html>
+
+<head>
+	
+	<title>Oval Page</title>
+	<link rel="stylesheet" type="text/css" href="ovalpage.css"/>
+	 <script type="text/javascript" src="jquery.min.js"></script>
+	 <script type="text/javascript">
+	$(document).ready(function(){
+		$(".oval1 , .oval2, .oval3").click(function() {
+		  $(this).addClass("adcls");
+		  $(".oval1 p,  .oval2 p").css("text-align","center");
+		});
+		$(".oval1 , .oval2, .oval3").mouseleave(function(){
+			$(this).removeClass("adcls");
+			$(".oval1 p, .oval2 p, .oval3 p").css("text-align","right");
+			$(".oval3 p").css("text-align","right");
+		});
+		$(".oval3").hover(function(){
+			$(".oval3 p").css("text-align","center");
+		});
+		
+		 
+	});
+
+
+	</script>
+</head>
+<body>
+	<div class="pagetop">
+		<div class="home">Home<br/>of<br/>Haven</div>
+		<div class="login"><button class="btnlogin">Login</button><br/><button class="btnsingup">Singup</button></div>
+
+
+		</div>
+	<div class="mainbody">
+		<div class="manubar">
+			
+			<div class="seo">SEO</div>
+			<br>
+			<div class="cms">CMS</div>
+			<br>
+			<div class="android">Socal<br>Marketing</div>
+			<br>
+			<div class="ios">Web Design<br>Web Develop</div>
+			<br>
+ 
+		</div>
+		<div class="oval1"><br/><p>In every industry, there are at least a<br/> handful of experts considered authorities on<br/> the subject. Most have a blog or website,<br/> making them the premier trusted resources <br/>industry-wide. Likewise, you will usually find a <br/>community or two where all the professionals <br/>immersed in the field turn to when they need to <br/>converse with like-minded professionals.<br/>
+
+		The same holds true in the world of development.<br/> Developers are such a quirky bunch that no <br/>ordinary website will do, so we have put together<br/> this collection of must-visit websites that <br/>cater to developer needs to stay on top of the <br/>latest in tech news, network and discuss <br/>projects and troubleshooting with your peers, <br/>sites for beginners to master programming, and,<br/> of course, a few fun sites to visit when you <br/>need a break from your latest development project.
+		</p></div>
+
+
+		<div class="oval2"><br/><br/><br/><br/><p>This site is a designer site for them <br/> who wants a better and outstanding webpage<br/> for their own and commercial purposes.<br/> 
+		We provide world class design and development  of <br/> website and mobile device applications.<br/> 
+		Our experts have a long time experience <br/> on web design and development. We made a good <br/>number of web templates and best mobile apps.<br/>
+		Experience our authentic test of art and design and <br/>make your customer the best experience of your website. <br/>
+		We never compromise with the quality of our produces and<br/> give our customer a flexible space of compatibility.
+		</p></div>
+
+
+		<div class="oval3"><br/><br/><br/><br/><br/><br/><br/><p>This site is a designer site for them <br/> who wants a better and outstanding webpage<br/> for their own and commercial purposes.<br/> 
+		We provide world class design and development  of <br/> website and mobile device applications.<br/> 
+		Our experts have a long time experience <br/> on web design and development. We made a good <br/>number of web templates and best mobile apps.<br/>
+		Experience our authentic test of art and design and <br/>make your customer the best experience of your website. <br/>
+		We never compromise with the quality of our produces and<br/> give our customer a flexible space of compatibility.
+		</p>
+		</div>
+
+	</div>
+	<div class="copyright">Copyrigt</div>
+
+</body>
+</html>
